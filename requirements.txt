@@ -1,0 +1,9 @@
+#         # PyTorch with CUDA 11.8 for GPU acceleration
+transformers==4.38.2     # Stable version compatible with PyTorch 2.x
+numpy==1.26.4            # Required due to NumPy 2.x issues
+scikit-learn==1.4.0      # Ensures compatibility with PyTorch ecosystem
+pandas==2.2.0            # Stable data processing library
+tqdm==4.66.1             # Progress bar utility (common with transformers)
+tokenizers==0.15.1       # Compatible version for tokenizer optimizations
+datasets==2.18.0         # For data loading, ideal with Hugging Face libraries
+accelerate==0.27.0       # Optimized for distributed training on GPUs
